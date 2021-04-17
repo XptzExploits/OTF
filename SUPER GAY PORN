@@ -1,0 +1,133 @@
+-- init
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GreenDeno/Venyx-UI-Library/main/source.lua"))()
+local venyx = library.new("Da Hood Fucker", 5013109572)
+
+-- themes
+local themes = {
+Background = Color3.fromRGB(24, 24, 24),
+Glow = Color3.fromRGB(0, 0, 0),
+Accent = Color3.fromRGB(10, 10, 10),
+LightContrast = Color3.fromRGB(20, 20, 20),
+DarkContrast = Color3.fromRGB(14, 14, 14),  
+TextColor = Color3.fromRGB(255, 255, 255)
+}
+
+-- first page
+local page = venyx:addPage("Guis", 5012544693)
+local section1 = page:addSection("Gui Page")
+local section2 = page:addSection("KeyBind")
+
+section1:addButton("LegacyX", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Compwnter/LegacyX/main/script.lua'), true))()
+end)
+
+section1:addButton("LegacyX Key", function()
+setclipboard("a2e7d24d6b518921162898fb4d74e12dfef788fcf042711022df42fb0f786bc93")
+end)
+
+section1:addButton("Valiant", function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/FMnCZbW5"), true))();
+end)
+
+section1:addButton("RaycodeX", function()
+loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
+end)
+
+section1:addButton("NightX", function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/u0Tg3PsM"), true))();
+end)
+
+section1:addButton("Swag Mode", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
+end)
+
+section1:addButton("Lora X New", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XptzExploits/dahood/main/loraxnew"))()
+end)
+
+section1:addButton("Lora X Old", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XptzExploits/dahood/main/loraxold"))()
+end)
+
+
+
+local page2 = venyx:addPage("Solo Scripts", 5012544693)
+local section11 = page2:addSection("Script Page")
+
+section11:addButton("Anti Stomp", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/hJTKLHvS"))()
+end)
+
+section11:addButton("Silent Aim", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/wfwf/main/aimbot"))()
+end)
+
+section11:addButton("Auto Arrest Autofarm", function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/Da%20Hood%20Auto%20Arrest"), true))();
+end)
+
+
+local page4 = venyx:addPage("Ids", 5012544693)
+local section11 = page4:addSection("Ids")
+
+section11:addButton("Mexican BOP", function()
+setclipboard("5972127403")
+end)
+
+section11:addButton("Who I smoke", function()
+setclipboard("6677147540")
+end)
+
+section11:addButton("BUSTER -$atori Zoom", function()
+setclipboard("5971707317")
+end)
+
+local page6 = venyx:addPage("Discords", 5012544693)
+local section11 = page6:addSection("Discord Servers")
+
+section11:addButton("Legacyx Discord", function()
+setclipboard("https://discord.io/legacyx")
+end)
+
+section11:addButton("RaycodeX Discord", function()
+setclipboard("https://discord.gg/S3zZz9Zgdu")
+end)
+
+section11:addButton("Swagmode Discord", function()
+setclipboard("https://discord.gg/gR2U2RpFXs")
+end)
+
+section11:addButton("Valiant Discord", function()
+setclipboard("https://discord.gg/gR2U2RpFXs")
+end)
+
+
+
+local page5 = venyx:addPage("Change Log", 5012544693)
+local section11 = page5:addSection("Change Log")
+
+section11:addButton("4-17-20 Last Updated", function()
+print("4-17-20 Last Updated")
+end)
+
+
+
+
+
+section2:addKeybind("Toggle Keybind", Enum.KeyCode.KeypadOne, function()
+venyx:toggle()
+end, function()
+end)
+
+-- second page
+local theme = venyx:addPage("Theme", 5012544693)
+local colors = theme:addSection("Colors")
+
+for theme, color in pairs(themes) do -- all in one theme changer, i know, im cool
+colors:addColorPicker(theme, color, function(color3)
+venyx:setTheme(theme, color3)
+end)
+end
+
+-- load
+venyx:SelectPage(venyx.pages[1], true)
