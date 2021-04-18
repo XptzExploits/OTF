@@ -25,6 +25,16 @@ section1:addButton("LegacyX Key", function()
 setclipboard("a2e7d24d6b518921162898fb4d74e12dfef788fcf042711022df42fb0f786bc93")
 end)
 
+section1:addButton("Zordion", function()
+repeat
+wait()
+until game:IsLoaded()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/zordion/main/script.lua"))()end)
+
+section1:addButton("Zordion Key", function()
+setclipboard("zordioniscool")
+end)
+
 section1:addButton("Valiant", function()
 loadstring(game:HttpGet(("https://pastebin.com/raw/FMnCZbW5"), true))();
 end)
@@ -64,6 +74,14 @@ end)
 
 section11:addButton("Auto Arrest Autofarm", function()
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/Da%20Hood%20Auto%20Arrest"), true))();
+end)
+
+section11:addButton("Da Hood Crashed", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/22kristina/dhcrash_gen2/main/crash", true))()
+end)
+
+section11:addButton("DO NOT LEAVE THE SERVER while CRASHING", function()
+print("DONt")
 end)
 
 
@@ -107,6 +125,10 @@ local page5 = venyx:addPage("Change Log", 5012544693)
 local section11 = page5:addSection("Change Log")
 
 section11:addButton("4-17-20 Last Updated", function()
+print("4-17-20 Last Updated")
+end)
+
+section11:addButton("Added Crash & Zordion", function()
 print("4-17-20 Last Updated")
 end)
 
