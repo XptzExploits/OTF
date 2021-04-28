@@ -76,6 +76,10 @@ section11:addButton("Auto Arrest Autofarm", function()
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/Da%20Hood%20Auto%20Arrest"), true))();
 end)
 
+section11:addButton("Cash Drop", function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/Da%20Hood%20Auto%20Cash%20Drop"), true))()
+end)
+
 section11:addButton("Da Hood Crashed", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/22kristina/dhcrash_gen2/main/crash", true))()
 end)
@@ -92,8 +96,12 @@ section11:addButton("Mexican BOP", function()
 setclipboard("5972127403")
 end)
 
-section11:addButton("Who I smoke", function()
-setclipboard("6677147540")
+section11:addButton("EMOTEGI - UNDER MY SKIN", function()
+setclipboard("4498153931")
+end)
+
+section11:addButton("Alabama Neighbor", function()
+setclipboard("6546444546")
 end)
 
 section11:addButton("BUSTER -$atori Zoom", function()
@@ -124,12 +132,12 @@ end)
 local page5 = venyx:addPage("Change Log", 5012544693)
 local section11 = page5:addSection("Change Log")
 
-section11:addButton("4-17-20 Last Updated", function()
-print("4-17-20 Last Updated")
+section11:addButton("4-28-20 Last Updated", function()
+print("4-28-20 Last Updated")
 end)
 
-section11:addButton("Added Crash & Zordion", function()
-print("4-17-20 Last Updated")
+section11:addButton("Added Money Drop & IDS", function()
+print("4-28-20 Last Updated")
 end)
 
 
