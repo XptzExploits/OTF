@@ -22,7 +22,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/Compwnter/LegacyX/ma
 end)
 
 section1:addButton("LegacyX Key", function()
-setclipboard("a86e8582822303633c72e0cd7831499e3d4bf6e2bbce88811f45f20f57c79e90")
+setclipboard("ce202f21e2ce83021aa4010660aab88bf8528167108a246cae494290b6f133b0")
 end)
 
 section1:addButton("Zordion", function()
