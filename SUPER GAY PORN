@@ -129,8 +129,8 @@ section11:addButton("C2D - With my hoe", function()
 setclipboard("5790506499")
 end)
 
-section11:addButton("C2D - With my hoe", function()
-setclipboard("5790506499")
+section11:addButton("#BrooklynBloodPop", function()
+setclipboard("6528607507")
 end)
 
 local page6 = venyx:addPage("Discords", 5012544693)
