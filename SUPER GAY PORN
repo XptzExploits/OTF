@@ -68,6 +68,10 @@ section11:addButton("Anti Stomp", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/hJTKLHvS"))()
 end)
 
+section11:addButton("Audio Logger", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/iXtePLpF"))()
+end)
+
 section11:addButton("Silent Aim", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/wfwf/main/aimbot"))()
 end)
@@ -108,6 +112,27 @@ section11:addButton("BUSTER -$atori Zoom", function()
 setclipboard("5971707317")
 end)
 
+section11:addButton("Ong - kwuzi", function()
+setclipboard("6607366358")
+end)
+
+section11:addButton("yameii - baby my phone", function()
+setclipboard("6457694642")
+end)
+
+section11:addButton("Lil Darkie - drink my piss you nasty slut yeah yeah", function()
+setclipboard("5578146842")
+end)
+
+
+section11:addButton("C2D - With my hoe", function()
+setclipboard("5790506499")
+end)
+
+section11:addButton("C2D - With my hoe", function()
+setclipboard("5790506499")
+end)
+
 local page6 = venyx:addPage("Discords", 5012544693)
 local section11 = page6:addSection("Discord Servers")
 
@@ -132,12 +157,12 @@ end)
 local page5 = venyx:addPage("Change Log", 5012544693)
 local section11 = page5:addSection("Change Log")
 
-section11:addButton("4-28-20 Last Updated", function()
-print("4-28-20 Last Updated")
+section11:addButton("5-6-20 Last Updated", function()
+print("5-6-20 Last Updated")
 end)
 
-section11:addButton("Added Money Drop & IDS", function()
-print("4-28-20 Last Updated")
+section11:addButton("Audio Logger & IDS", function()
+print("5-6-20 Last Updated")
 end)
 
 
