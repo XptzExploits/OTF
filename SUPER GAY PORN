@@ -133,6 +133,10 @@ section11:addButton("#BrooklynBloodPop", function()
 setclipboard("6528607507")
 end)
 
+section11:addButton("Deadx - I Will Break My Own Heart", function()
+setclipboard("5012734344")
+end)
+
 local page6 = venyx:addPage("Discords", 5012544693)
 local section11 = page6:addSection("Discord Servers")
 
