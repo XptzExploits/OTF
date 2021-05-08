@@ -66,11 +66,6 @@ section1:addButton("Lora X Old", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/XptzExploits/dahood/main/loraxold"))()
 end)
 
-section1:addButton("Sam X Cracked Old", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/jsYz6hsQ"))()
-end)
-
-
 local page2 = venyx:addPage("Solo Scripts", 5012544693)
 local section11 = page2:addSection("Script Page")
 
