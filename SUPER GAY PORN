@@ -8,7 +8,7 @@ game.StarterGui:SetCore("ChatMakeSystemMessage", {
 })
 
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
-   Text = "[Warning] By EXECUTING this GUI you are now a segistered sex offender!";
+   Text = "[Warning] By EXECUTING this GUI you are now a registered sex offender!";
    Color = Color3.new(255, 0, 0);
    Font = Enum.Font.SourceSansBold;
    FontSize = Enum.FontSize.Size24;
