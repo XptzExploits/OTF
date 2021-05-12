@@ -151,7 +151,6 @@ section5:addButton("Lil Darkie - drink my piss you nasty slut yeah yeah", functi
 setclipboard("5578146842")
 end)
 
-
 section5:addButton("C2D - With my hoe", function()
 setclipboard("5790506499")
 end)
@@ -176,6 +175,14 @@ end)
 
 section5:addButton("Weeekly(위클리) - After School (K-Pop)", function()
 setclipboard("6556456475 ")
+end)
+
+section5:addButton("Annoying Orange - ORANGE NYA NYA STYLE", function()
+setclipboard("171420903 ")
+end)
+
+section5:addButton("Annoying Orange - Full Kitchen Intruder", function()
+setclipboard("2158483156 ")
 end)
 
 -- sixth page
