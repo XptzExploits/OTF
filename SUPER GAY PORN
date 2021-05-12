@@ -115,7 +115,7 @@ section4:addButton("Ray Code Cash Dropper", function()
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/Da%20Hood%20Auto%20Cash%20Drop"), true))()
 end)
 
-ection4:addButton("Ray Code Auto Arrest", function()
+section4:addButton("Ray Code Auto Arrest", function()
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/Da%20Hood%20Auto%20Arrest"), true))()
 end)
 
