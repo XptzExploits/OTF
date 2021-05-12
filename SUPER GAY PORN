@@ -160,6 +160,11 @@ section5:addButton("#BrooklynBloodPop", function()
 setclipboard("6528607507")
 end)
 
+section5:addButton("Annoying Orange - Fry Day", function()
+setclipboard("6114352617 ")
+end)
+
+
 section5:addButton("Deadx - I Will Break My Own Heart", function()
 setclipboard("5012734344")
 end)
