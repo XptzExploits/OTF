@@ -1,7 +1,7 @@
 loadstring(game:HttpGet("https://pastebin.com/raw/1mMWWDXE"))()
 wait(0.5)
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
-   Text = "[Notice] GUI Last Updated 5-10-21 , Hey Peter";
+   Text = "[Notice] GUI Last Updated 5-12-21 , Hey Peter";
    Color = Color3.new(255, 0, 72);
    Font = Enum.Font.SourceSansBold;
    FontSize = Enum.FontSize.Size24;
@@ -18,7 +18,7 @@ game.StarterGui:SetCore("ChatMakeSystemMessage", {
 
 -- init
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GreenDeno/Venyx-UI-Library/main/source.lua"))()
-local venyx = library.new("Pedofile Gui   Fun Fact: Nooy Is A Nigger", 5013109572)
+local venyx = library.new("Pedofile Gui   Fun Fact: Nooy Is A Nigger", 50139572)
 
 -- themes
 local themes = {
@@ -115,6 +115,10 @@ section4:addButton("Ray Code Cash Dropper", function()
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/Da%20Hood%20Auto%20Cash%20Drop"), true))()
 end)
 
+ection4:addButton("Ray Code Auto Arrest", function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/Da%20Hood%20Auto%20Arrest"), true))()
+end)
+
 -- fith page
 local page = venyx:addPage("Music Ids", 5012544693)
 local section5 = page:addSection("Ids")
@@ -198,12 +202,12 @@ end)
 local page = venyx:addPage("Change Logs", 5012544693)
 local section7 = page:addSection("Updates")
 
-section7:addButton("5-10-21 Last Updated", function()
-print("5-10-21 Last Updated")
+section7:addButton("5-12-21 Last Updated", function()
+print("5-12-21 Last Updated")
 end)
 
 section7:addButton("Changed Alot", function()
-print("5-10-21 Last Updated")
+print("5-12-21 Last Updated")
 end)
 
 
