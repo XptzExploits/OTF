@@ -185,6 +185,10 @@ section5:addButton("Annoying Orange - Full Kitchen Intruder", function()
 setclipboard("2158483156 ")
 end)
 
+section5:addButton("Moan Song", function()
+setclipboard("5682484168 ")
+end)
+
 -- sixth page
 local page = venyx:addPage("Discord Invites", 5012544693)
 local section6 = page:addSection("Servers")
