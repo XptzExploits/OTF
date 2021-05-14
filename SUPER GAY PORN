@@ -1,7 +1,7 @@
 loadstring(game:HttpGet("https://pastebin.com/raw/1mMWWDXE"))()
 wait(0.5)
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
-   Text = "[Notice] GUI Last Updated 5-12-21 , Hey Peter";
+   Text = "[Notice] GUI Last Updated 5-14-21 , Hey Peter";
    Color = Color3.new(255, 0, 72);
    Font = Enum.Font.SourceSansBold;
    FontSize = Enum.FontSize.Size24;
@@ -222,12 +222,12 @@ end)
 local page = venyx:addPage("Change Logs", 5012544693)
 local section7 = page:addSection("Updates")
 
-section7:addButton("5-1321 Last Updated", function()
+section7:addButton("5-14-21 Last Updated", function()
 print("5-13-21 Last Updated")
 end)
 
 section7:addButton("Changed Alot", function()
-print("5-13-21 Last Updated")
+print("5-14-21 Last Updated")
 end)
 
 
