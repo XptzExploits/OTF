@@ -43,8 +43,19 @@ section1:addButton("Swag Mode", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
 end)
 
+section1:addButton("Krypt", function()
+repeat
+wait()
+until game:IsLoaded()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/krypt/main/loader"))()
+end)
+
 section1:addButton("Silent Aim", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/wfwf/main/aimbot"))()
+end)
+
+section1:addButton("Join Krypt Group To Use", function()
+setclipboard("https://www.roblox.com/groups/9949037/Krypt-HQ#!/about")
 end)
 
 section1:addButton("Da Hood Crasher", function()
@@ -139,16 +150,9 @@ section5:addButton("BUSTER -$atori Zoom", function()
 setclipboard("5971707317")
 end)
 
-section5:addButton("Ong - kwuzi", function()
-setclipboard("6607366358")
-end)
 
 section5:addButton("yameii - baby my phone", function()
 setclipboard("6457694642")
-end)
-
-section5:addButton("Lil Darkie - drink my piss you nasty slut yeah yeah", function()
-setclipboard("5578146842")
 end)
 
 section5:addButton("C2D - With my hoe", function()
@@ -218,12 +222,12 @@ end)
 local page = venyx:addPage("Change Logs", 5012544693)
 local section7 = page:addSection("Updates")
 
-section7:addButton("5-12-21 Last Updated", function()
-print("5-12-21 Last Updated")
+section7:addButton("5-1321 Last Updated", function()
+print("5-13-21 Last Updated")
 end)
 
 section7:addButton("Changed Alot", function()
-print("5-12-21 Last Updated")
+print("5-13-21 Last Updated")
 end)
 
 
