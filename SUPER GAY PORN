@@ -43,24 +43,15 @@ section1:addButton("Swag Mode", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
 end)
 
-section1:addButton("Nooy X", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/A0iqBB7d"))()
+section1:addButton("Faded   Most Op", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
 end)
 
-section1:addButton("Krypt", function()
-repeat
-wait()
-until game:IsLoaded()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/krypt/main/loader"))()
-end)
 
 section1:addButton("Silent Aim", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/wfwf/main/aimbot"))()
 end)
 
-section1:addButton("Join Krypt Group To Use", function()
-setclipboard("https://www.roblox.com/groups/9949037/Krypt-HQ#!/about")
-end)
 
 section1:addButton("Da Hood Crasher", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/22kristina/dhcrash_gen2/main/crash", true))()
@@ -69,6 +60,29 @@ end)
 section1:addButton("Da Hood Crashed 2", function()
 loadstring(game:HttpGet("loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()", true))()
 end)
+
+
+
+
+
+
+-- eith page
+local page = venyx:addPage("Nooy X", 5012544693)
+local section8 = page:addSection("Nooy X Gui")
+
+section8:addButton("Nooy X", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/A0iqBB7d"))()
+end)
+
+section8:addButton("ONLY EXECUTE NOOY X  DO NOT EXECUTE ANY OTHER GUI", function()
+print("Hi")
+end)
+
+
+
+
+
+
 
 -- thrid page
 local page = venyx:addPage("Guis", 5012544693)
@@ -83,6 +97,20 @@ end)
 section3:addButton("LegacyX Key", function()
 setclipboard("5bfa8f0c6c03818a87bd2cd9e3dcc2179218d8ab5905509ba2616511eabe744d")
 end)
+
+section3:addButton("Krypt", function()
+repeat
+wait()
+until game:IsLoaded()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/krypt/main/loader"))()
+end)
+
+
+section3:addButton("Join Krypt Group To Use", function()
+setclipboard("https://www.roblox.com/groups/9949037/Krypt-HQ#!/about")
+end)
+
+
 
 section3:addButton("Zordion", function()
 repeat
@@ -158,7 +186,6 @@ section5:addButton("BUSTER -$atori Zoom", function()
 setclipboard("5971707317")
 end)
 
-
 section5:addButton("yameii - baby my phone", function()
 setclipboard("6457694642")
 end)
@@ -171,10 +198,6 @@ section5:addButton("#BrooklynBloodPop", function()
 setclipboard("6528607507")
 end)
 
-section5:addButton("Annoying Orange - Fry Day", function()
-setclipboard("6114352617 ")
-end)
-
 
 section5:addButton("Deadx - I Will Break My Own Heart", function()
 setclipboard("5012734344")
@@ -184,10 +207,19 @@ section5:addButton("Lieu - Drain", function()
 setclipboard("6741212947 ")
 end)
 
+section5:addButton("Jiggle Bells Dirty", function()
+setclipboard("6784916972")
+end)
+
 
 section5:addButton("Weeekly(위클리) - After School (K-Pop)", function()
 setclipboard("6556456475 ")
 end)
+
+section5:addButton("Annoying Orange - Fry Day", function()
+setclipboard("6114352617 ")
+end)
+
 
 section5:addButton("Annoying Orange - ORANGE NYA NYA STYLE", function()
 setclipboard("171420903 ")
@@ -236,6 +268,12 @@ end)
 section7:addButton("Added Nooy X & LittleKid Gui", function()
 print("5-14-21 Last Updated")
 end)
+
+
+
+
+
+
 
 
 
