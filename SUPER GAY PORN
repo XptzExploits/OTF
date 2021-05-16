@@ -170,6 +170,11 @@ end)
 local page = venyx:addPage("Music Ids", 5012544693)
 local section5 = page:addSection("Ids")
 
+section5:addButton("Foolio Neva Carded  Audio By Me", function()
+setclipboard("6820367896")
+end)
+
+
 section5:addButton("Mexican BOP", function()
 setclipboard("5972127403")
 end)
