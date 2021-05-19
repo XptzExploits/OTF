@@ -43,7 +43,11 @@ section1:addButton("Swag Mode", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
 end)
 
-section1:addButton("Faded   Most Op", function()
+section1:addButton("Swag Mode Old ", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/OldSwagmode'))()
+end)
+
+section1:addButton("Faded", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
 end)
 
