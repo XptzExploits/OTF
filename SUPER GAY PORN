@@ -178,8 +178,8 @@ setclipboard("6820367896")
 end)
 
 
-section9:addButton("Yungeen Ace - Who I Smoke   PENDING UPLOAD", function()
-setclipboard("6820367896")
+section9:addButton("Yungeen Ace - Who I Smoke", function()
+setclipboard("6835300373")
 end)
 
 
