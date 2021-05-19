@@ -222,6 +222,9 @@ section5:addButton("#BrooklynBloodPop", function()
 setclipboard("6528607507")
 end)
 
+section5:addButton("XXXTENTACION x Trippie Red - Uh Oh, Thots!", function()
+setclipboard("911974794")
+end)
 
 section5:addButton("Deadx - I Will Break My Own Heart", function()
 setclipboard("5012734344")
