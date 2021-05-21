@@ -187,8 +187,8 @@ setclipboard("6835300373")
 end)
 
 
-section9:addButton(" Lil Durk & King von - like that   PENDING UPLOAD", function()
-setclipboard("6820367896")
+section9:addButton("Annoying Orange - Full Kitchen Intruder", function()
+setclipboard("6842701393")
 end)
 
 
@@ -267,9 +267,7 @@ section5:addButton("Annoying Orange - ORANGE NYA NYA STYLE", function()
 setclipboard("171420903 ")
 end)
 
-section5:addButton("Annoying Orange - Full Kitchen Intruder", function()
-setclipboard("2158483156 ")
-end)
+
 
 section5:addButton("Moan Song", function()
 setclipboard("5682484168 ")
