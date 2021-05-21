@@ -1,7 +1,7 @@
 loadstring(game:HttpGet("https://pastebin.com/raw/1mMWWDXE"))()
 wait(0.5)
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
-   Text = "[Notice] GUI Last Updated 5-14-21 , Hey Peter";
+   Text = "[Notice] GUI Last Updated 5-20-21 , Hey Peter";
    Color = Color3.new(255, 0, 72);
    Font = Enum.Font.SourceSansBold;
    FontSize = Enum.FontSize.Size24;
@@ -18,7 +18,7 @@ game.StarterGui:SetCore("ChatMakeSystemMessage", {
 
 -- init
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GreenDeno/Venyx-UI-Library/main/source.lua"))()
-local venyx = library.new("Pedofile Gui   Fun Fact: Nooy Is A Nigger", 50139572)
+local venyx = library.new("Jiggy Mod Menu", 50139572)
 
 -- themes
 local themes = {
@@ -303,12 +303,12 @@ end)
 local page = venyx:addPage("Change Logs", 5012544693)
 local section7 = page:addSection("Updates")
 
-section7:addButton("5-14-21 Last Updated", function()
-print("5-14-21 Last Updated")
+section7:addButton("5-20-21 Last Updated", function()
+print("5-20-21 Last Updated")
 end)
 
 section7:addButton("Added Nooy X & LittleKid Gui", function()
-print("5-14-21 Last Updated")
+print("5-20-21 Last Updated")
 end)
 
 
