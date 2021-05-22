@@ -47,12 +47,9 @@ section1:addButton("Swag Mode Old ", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/OldSwagmode'))()
 end)
 
-section1:addButton("Ray Code Silent Aim ", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/racemodex/my-scripts/master/dahoodaimlock", true))()
-end)
 
-section1:addButton("Da-Hoodian Ware (Shitty Silent Aim)", function()
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Enviie/Cypher-X-DaHoodian-Ware/main/Cypher%20X%20DaHoodian-Ware%20Main.lua"))("Enviie Soo Hot!")
+section1:addButton("RaycodeX", function()
+loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
 end)
 
 
@@ -135,11 +132,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/mai
 end)
 
 
-
-section3:addButton("RaycodeX", function()
-loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
-end)
-
 section3:addButton("NightX", function()
 loadstring(game:HttpGet(("https://pastebin.com/raw/u0Tg3PsM"), true))();
 end)
@@ -174,6 +166,14 @@ end)
 
 section4:addButton("Ray Code Auto Arrest", function()
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/Da%20Hood%20Auto%20Arrest"), true))()
+end)
+
+section4:addButton("Ray Code Silent Aim ", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/racemodex/my-scripts/master/dahoodaimlock", true))()
+end)
+
+section4:addButton("Da-Hoodian Ware (Shitty Silent Aim)", function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Enviie/Cypher-X-DaHoodian-Ware/main/Cypher%20X%20DaHoodian-Ware%20Main.lua"))("Enviie Soo Hot!")
 end)
 
 
