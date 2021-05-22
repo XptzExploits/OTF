@@ -48,7 +48,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-project
 end)
 
 section1:addButton("Ray Code Silent Aim ", function()
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Enviie/Cypher-X-DaHoodian-Ware/main/Cypher%20X%20DaHoodian-Ware%20Main.lua"))("Enviie Soo Hot!")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/racemodex/my-scripts/master/dahoodaimlock", true))()
 end)
 
 section1:addButton("Da-Hoodian Ware (Shitty Silent Aim)", function()
