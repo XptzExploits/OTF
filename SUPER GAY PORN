@@ -1,7 +1,7 @@
-loadstring(game:HttpGet("https://pastebin.com/raw/1mMWWDXE"))()
+--[[loadstring(game:HttpGet("https://pastebin.com/raw/1mMWWDXE"))()
 wait(0.5)
 game.StarterGui:SetCore("ChatMakeSystemMessage", {
-   Text = "[Notice] GUI Last Updated 5-23-21 , Hey Peter";
+   Text = "[Notice] GUI Last Updated 5-25-21";
    Color = Color3.new(255, 0, 72);
    Font = Enum.Font.SourceSansBold;
    FontSize = Enum.FontSize.Size24;
@@ -13,12 +13,15 @@ game.StarterGui:SetCore("ChatMakeSystemMessage", {
    Font = Enum.Font.SourceSansBold;
    FontSize = Enum.FontSize.Size24;
 })
+]]
 
+
+loadstring(game:HttpGet("https://pastebin.com/raw/KrpD8Hgf"))()
 
 
 -- init
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GreenDeno/Venyx-UI-Library/main/source.lua"))()
-local venyx = library.new("Jiggy Mod Menu", 50139572)
+local venyx = library.new("Jiggy Mod Menu     READ CHANGE LOG SO YOU DON'T GET BANNED", 50139572)
 
 -- themes
 local themes = {
@@ -71,19 +74,9 @@ end)
 
 
 -- eith page
-local page = venyx:addPage("Nooy X", 5012544693)
+--[[local page = venyx:addPage("Nooy X", 5012544693)
 local section8 = page:addSection("Nooy X Gui")
-
-section8:addButton("Nooy X", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/A0iqBB7d"))()
-end)
-
-section8:addButton("ONLY EXECUTE NOOY X  DO NOT EXECUTE ANY OTHER GUI", function()
-print("Hi")
-end)
-
-
-
+]]
 
 
 
@@ -101,6 +94,14 @@ end)
 section3:addButton("LegacyX Key", function()
 setclipboard("170c6e53af18a72680122931a8244fc7f4d5624d747d409161ced893fe3ddc3f")
 end)
+
+section3:addButton("Nooy X", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/A0iqBB7d"))()
+end)
+
+
+
+
 
 section3:addButton("Krypt", function()
 repeat
@@ -138,15 +139,6 @@ end)
 section3:addButton("Lora X New", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/XptzExploits/dahood/main/loraxnew"))()
 end)
-
-section3:addButton("Lora X Old", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/XptzExploits/dahood/main/loraxold"))()
-end)
-
-section3:addButton("Lora X Older", function()
-loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\51\97\99\107\101\114\104\115\52\47\97\115\100\97\100\115\97\100\107\105\100\115\47\109\97\105\110\47\82\69\65\68\77\69\46\109\100\39\41\44\116\114\117\101\41\41\40\41\32\10")()
-end)
-
 -- fourth page
 local page = venyx:addPage("Solo Scripts", 5012544693)
 local section4 = page:addSection("Script Page")
@@ -179,7 +171,7 @@ end)
 
 
 -- nine page
-local page = venyx:addPage("Joitx Music Ids", 5012544693)
+local page = venyx:addPage("Xptz & Nooy Audios", 5012544693)
 local section9 = page:addSection("Ids")
 
 section9:addButton("Foolio - Neva Carded", function()
@@ -195,6 +187,9 @@ end)
 section9:addButton("Annoying Orange - Full Kitchen Intruder", function()
 setclipboard("6842701393")
 end)
+
+
+
 
 
 
@@ -308,12 +303,32 @@ end)
 local page = venyx:addPage("Change Logs", 5012544693)
 local section7 = page:addSection("Updates")
 
-section7:addButton("5-23-21 Last Updated", function()
-print("5-23-21 Last Updated")
+section7:addButton("5-25-21 Last Updated", function()
+print("hi")
 end)
 
-section7:addButton("Added Stuff", function()
-print("5-23-21 Last Updated")
+section7:addButton("God Bullet and God Block Got Patched", function()
+print("hi")
+end)
+
+section7:addButton("GOD MAY BE FIXED IN SOME GUIS", function()
+print("hi")
+end)
+
+section7:addButton("ADDED ADMIN JOIN KICK SCRIPT", function()
+print("hi")
+end)
+
+section7:addButton("It Will Kick You If An Admin Joins", function()
+print("hi")
+end)
+
+section7:addButton("Fixed Keys For Guis", function()
+print("hi")
+end)
+
+section7:addButton("Added Backup Crash", function()
+print("hi")
 end)
 
 
