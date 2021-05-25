@@ -242,11 +242,13 @@ section5:addButton("Gasolina", function()
 setclipboard("6785475822 ")
 end)
 
+section5:addButton("Sidenote - Lil Tecca", function()
+setclipboard("6785369242")
+end)
 
 section5:addButton("Jiggle Bells Dirty", function()
 setclipboard("6784916972")
 end)
-
 
 section5:addButton("Weeekly(위클리) - After School (K-Pop)", function()
 setclipboard("6556456475 ")
