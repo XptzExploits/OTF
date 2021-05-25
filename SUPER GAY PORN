@@ -171,7 +171,7 @@ end)
 
 
 -- nine page
-local page = venyx:addPage("Xptz & Nooy Audios", 5012544693)
+local page = venyx:addPage("Audios By Us", 5012544693)
 local section9 = page:addSection("Ids")
 
 section9:addButton("Foolio - Neva Carded", function()
