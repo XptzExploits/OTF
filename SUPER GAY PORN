@@ -62,6 +62,9 @@ section1:addButton("Da Hood Crasher", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/22kristina/dhcrash_gen2/main/crash", true))()
 end)
 
+section1:addButton("Backup Crasher", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/22kristina/swag/main/taser", true))()
+end)
 
 
 
