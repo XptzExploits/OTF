@@ -96,7 +96,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Compwnter/LegacyX/mai
 end)
 
 section3:addButton("LegacyX Key", function()
-setclipboard("56a60b43496e079e88ad644df206b6a0916ac7e2a196e185aed9cb53d532f226")
+setclipboard("170c6e53af18a72680122931a8244fc7f4d5624d747d409161ced893fe3ddc3f")
 end)
 
 section3:addButton("Krypt", function()
