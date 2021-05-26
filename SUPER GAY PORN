@@ -188,7 +188,9 @@ section9:addButton("Annoying Orange - Full Kitchen Intruder", function()
 setclipboard("6842701393")
 end)
 
-
+section9:addButton("JOE SWANSON HEY PETER TYPE BEAT", function()
+setclipboard("6866508567")
+end)
 
 
 
