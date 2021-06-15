@@ -42,8 +42,14 @@ section1:addButton("BEST GUI Valiant", function()
 loadstring(game:HttpGet(("https://pastebin.com/raw/FMnCZbW5"), true))();
 end)
 
+
 section1:addButton("Swag Mode", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
+end)
+
+
+section1:addButton("Nova Gui", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IcxyLol/Nova-Gui-New/main/README.md", true))()
 end)
 
 section1:addButton("CMD-X", function()
@@ -143,6 +149,10 @@ end)
 
 section4:addButton("Ray Code Cash Dropper", function()
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/Da%20Hood%20Auto%20Cash%20Drop"), true))()
+end)
+
+section4:addButton("Nuke Script", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/IcxyLol/nuke/main/README.md'))()
 end)
 
 section4:addButton("Ray Code Auto Arrest", function()
