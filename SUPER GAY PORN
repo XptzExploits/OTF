@@ -21,7 +21,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/KrpD8Hgf"))()
 
 -- init
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GreenDeno/Venyx-UI-Library/main/source.lua"))()
-local venyx = library.new("Jiggy Mod Menu     READ CHANGE LOG SO YOU DON'T GET BANNED", 50139572)
+local venyx = library.new("Jiggy Mod Menu LAST UPDATED 6-15-21", 50139572)
 
 -- themes
 local themes = {
@@ -38,7 +38,7 @@ local page = venyx:addPage("Best Scripts", 5012544693)
 local section1 = page:addSection("Scripts")
 local section2 = page:addSection("KeyBind")
 
-section1:addButton("Valiant", function()
+section1:addButton("BEST GUI Valiant", function()
 loadstring(game:HttpGet(("https://pastebin.com/raw/FMnCZbW5"), true))();
 end)
 
@@ -46,8 +46,8 @@ section1:addButton("Swag Mode", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
 end)
 
-section1:addButton("Swag Mode Old ", function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/OldSwagmode'))()
+section1:addButton("CMD-X", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/dBDCw7hw"))()
 end)
 
 
@@ -91,17 +91,9 @@ until game:IsLoaded();
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Compwnter/LegacyX/main/script.lua'))();
 end)
 
-section3:addButton("LegacyX Key", function()
-setclipboard("1ffb44d133a83fd9016e563687375e24b5e1d635ca0f4bc402d6c2a58ca6d277")
+section3:addButton("LegacyX Key Linkvertise", function()
+setclipboard("https://linkvertise.com/260001/keysystem")
 end)
-
-section3:addButton("Nooy X", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/A0iqBB7d"))()
-end)
-
-
-
-
 
 section3:addButton("Krypt", function()
 repeat
@@ -132,9 +124,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/mai
 end)
 
 
-section3:addButton("NightX", function()
-loadstring(game:HttpGet(("https://pastebin.com/raw/u0Tg3PsM"), true))();
-end)
+
 
 section3:addButton("Lora X New", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/XptzExploits/dahood/main/loraxnew"))()
@@ -204,98 +194,6 @@ section5:addButton("Mexican BOP", function()
 setclipboard("5972127403")
 end)
 
-section5:addButton("Lil Durk - Hellcats And Trackhawks", function()
-setclipboard("6811691090")
-end)
-
-section5:addButton("Lil Tecca - SideNote", function()
-setclipboard("6785369242")
-end)
-
-section5:addButton("Filthyfrank - Alabama", function()
-setclipboard("6829470442")
-end)
-
-section5:addButton("Polo G - Rapstar", function()
-setclipboard("6751370974")
-end)
-
-section5:addButton("Lil Loaded - 6locc 6a6y", function()
-setclipboard("6797500745")
-end)
-
-section5:addButton("Playboi Carti - Vamp Anthem", function()
-setclipboard("6807211183")
-end)
-
-section5:addButton("Dababy - Vibez", function()
-setclipboard("6806297707")
-end)
-
-section5:addButton("Foolio - When I See You", function()
-setclipboard("6745621983")
-end)
-
-section5:addButton("Juju Falls - Fall", function()
-setclipboard("6432463325")
-end)
-
-section5:addButton("Bobby Shmurda - Hot N*gga", function()
-setclipboard("6807119893")
-end)
-
-section5:addButton("Live Solum – Gxth B!tch", function()
-setclipboard("6751223796")
-end)
-
-section5:addButton("EMOTEGI - UNDER MY SKIN", function()
-setclipboard("4498153931")
-end)
-
-section5:addButton("Alabama Neighbor", function()
-setclipboard("6546444546")
-end)
-
-section5:addButton("BUSTER -$atori Zoom", function()
-setclipboard("5971707317")
-end)
-
-section5:addButton("#BrooklynBloodPop", function()
-setclipboard("6528607507")
-end)
-
-section5:addButton("XXXTENTACION x Trippie Red - Uh Oh, Thots!", function()
-setclipboard("911974794")
-end)
-
-section5:addButton("Deadx - I Will Break My Own Heart", function()
-setclipboard("5012734344")
-end)
-
-section5:addButton("Lieu - Drain", function()
-setclipboard("6741212947 ")
-end)
-
-section5:addButton("Gasolina", function()
-setclipboard("6785475822 ")
-end)
-
-section5:addButton("Weeekly(위클리) - After School (K-Pop)", function()
-setclipboard("6556456475 ")
-end)
-
-section5:addButton("Annoying Orange - Fry Day", function()
-setclipboard("6114352617 ")
-end)
-
-section5:addButton("Annoying Orange - ORANGE NYA NYA STYLE", function()
-setclipboard("171420903 ")
-end)
-
-section5:addButton("Moan Song", function()
-setclipboard("5682484168 ")
-end)
-
 
 
 
@@ -333,31 +231,7 @@ end)
 local page = venyx:addPage("Change Logs", 5012544693)
 local section7 = page:addSection("Updates")
 
-section7:addButton("5-26-21 Last Updated", function()
-print("hi")
-end)
-
-section7:addButton("God Bullet and God Block Got Patched", function()
-print("hi")
-end)
-
-section7:addButton("GOD MAY BE FIXED IN SOME GUIS", function()
-print("hi")
-end)
-
-section7:addButton("ADDED ADMIN JOIN KICK SCRIPT", function()
-print("hi")
-end)
-
-section7:addButton("It Will Kick You If An Admin Joins", function()
-print("hi")
-end)
-
-section7:addButton("Fixed Keys For Guis", function()
-print("hi")
-end)
-
-section7:addButton("Added Backup Crash", function()
+section7:addButton("6-15-21 Last Updated", function()
 print("hi")
 end)
 
