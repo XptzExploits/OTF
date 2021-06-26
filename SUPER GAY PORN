@@ -21,7 +21,7 @@ b:Button("Swag Mode",function()
 end)
 
 b:Button("Valiant",function()
-	loadstring(game:HttpGet(("https://pastebin.com/raw/FMnCZbW5"), true))();
+	loadstring(game:HttpGet(("https://pastebin.com/raw/xPzfVnYT"), true))();
 end)
 
 b:Button("Nova Gui",function()
