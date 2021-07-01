@@ -1,3 +1,4 @@
+loadstring(game:HttpGet("https://pastebin.com/raw/baF8039K", true))()
 
 getgenv().AimPart = "HumanoidRootPart" -- For R15 Games: {UpperTorso, LowerTorso, HumanoidRootPart, Head} | For R6 Games: {Head, Torso, HumanoidRootPart}
 getgenv().AimlockToggleKey = "Y" -- Toggles Aimbot On/Off 
