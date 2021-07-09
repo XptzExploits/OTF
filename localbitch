@@ -1,0 +1,44 @@
+local bitch = {
+	924142521,
+451877572,
+142916878,
+151961861,
+916269720,
+1125012984,
+2206808864,
+88585170,
+112399551,
+1510381464,
+2608682609,
+110960209,
+314410401,
+143549800,
+141177889,
+82390382,
+661165101,
+22092797,
+60131926,
+179348411,
+129832840,
+103406234,
+1497316437,
+87399132,
+500003326,
+285906738,
+2491479941,
+}
+
+for l, c in pairs(game.Players:GetChildren()) do
+	for i, v in pairs(bitch) do
+		if c.UserId == v then
+			game.Players.LocalPlayer:Kick("Admin joined!")
+		end
+	end
+end
+game.Players.PlayerAdded:Connect(function(plr)
+	for i, v in pairs(bitch) do
+		if plr.UserId == v then
+			game.Players.LocalPlayer:Kick("Admin joined!")
+		end
+	end
+end)
