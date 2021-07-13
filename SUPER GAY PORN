@@ -14,7 +14,7 @@ local f = a:NewSection("👑")
 local g = a:NewSection("READ👶🏿")
 ---------------------PAGE ONE-----------------------------------
 b:h1("Best Scripts")
-local txt2 = b:Text("Last Updated 6 - 20 - 21",'http://www.roblox.com/asset/?id=695093387')
+local txt2 = b:Text("Last Updated 7 - 13 - 21",'http://www.roblox.com/asset/?id=695093387')
 
 b:Button("Swag Mode",function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
@@ -29,22 +29,18 @@ b:Button("RaycodeX",function()
 	loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
 end)
 
-b:Button("Silent Aim",function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/wfwf/main/aimbot"))()
+
+b:Button("Raycode Crasher",function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/racemodex/my-scripts/master/dahoodcrash", true))()
 end)
 
-b:Button("CMD-X",function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/dBDCw7hw"))()
+b:Button("Swagmode Crasher",function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
 end)
-
-b:Button("Da Hood Crasher",function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/22kristina/swag/main/taser", true))()
-end)
-
 
 ---------------------PAGE TWO-----------------------------------
 c:h1("Guis")
-local txt2 = c:Text("Last Updated 6 - 20 - 21",'http://www.roblox.com/asset/?id=695093387')
+local txt2 = c:Text("Last Updated 7 - 13 - 21",'http://www.roblox.com/asset/?id=695093387')
 
 c:Button("LegacyX",function()
 	repeat
@@ -94,10 +90,18 @@ end)
 ---------------------PAGE THREE-----------------------------------
 
 d:h1("Solo Scripts")
-local txt2 = d:Text("Last Updated 6 - 20 - 21",'http://www.roblox.com/asset/?id=695093387')
+local txt2 = d:Text("Last Updated 7 - 13 - 21",'http://www.roblox.com/asset/?id=695093387')
 
 d:Button("Anti Stomp",function()
 	loadstring(game:HttpGet(("https://pastebin.com/raw/hJTKLHvS"), true))()
+end)
+
+d:Button("Silent Aim",function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/wfwf/main/aimbot"))()
+end)
+
+d:Button("CMD-X",function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/dBDCw7hw"))()
 end)
 
 d:Button("Audio Logger",function()
@@ -125,28 +129,24 @@ end)
 ---------------------PAGE FOUR-----------------------------------
 
 e:h1("Audio Ids")
-local txt2 = e:Text("Last Updated 6 - 20 - 21",'http://www.roblox.com/asset/?id=695093387')
-
-e:Button("Foolio - Neva Carded",function()
-	setclipboard("6820367896")
-end)
-
-e:Button("Annoying Orange - Full Kitchen Intruder",function()
-	setclipboard("6842701393")
-end)
-
-e:Button("JOE SWANSON HEY PETER TYPE BEAT",function()
-	setclipboard("6866508567")
-end)
+local txt2 = e:Text("Last Updated 7 - 13 - 21",'http://www.roblox.com/asset/?id=695093387')
 
 e:Button("Mexican BOP",function()
 	setclipboard("5972127403")
 end)
 
+e:Button("Who I smoke",function()
+	setclipboard("6886721809")
+end)
+
+e:Button("i'll add more I'm Just Lazy",function()
+	setclipboard("6886721809")
+end)
+
 ---------------------PAGE FIVE-----------------------------------
 
 f:h1("Discord Invites")
-local txt2 = f:Text("Last Updated 6 - 20 - 21",'http://www.roblox.com/asset/?id=695093387')
+local txt2 = f:Text("Last Updated 7 - 13 - 21",'http://www.roblox.com/asset/?id=695093387')
 
 f:Button("LegacyX Discord Invite",function()
 	setclipboard("https://discord.gg/cnj6CDnVDZ")
@@ -180,8 +180,8 @@ end)
 
 g:h1("Change Log")
 
-local txt2 = g:Text("Last Updated 6 - 20 - 21",'http://www.roblox.com/asset/?id=695093387')
-local txt  = g:Text("New Ui And Fixed Everything")
+local txt2 = g:Text("Last Updated 7 - 13 - 21",'http://www.roblox.com/asset/?id=695093387')
+local txt  = g:Text(" Added Crashers Fixed Everything")
 
 
 
@@ -193,4 +193,3 @@ b:Bind("Toggle GUI",Enum.KeyCode.KeypadOne,true,function(a)
 	library:SetBind(a)
 	print("Set".. a ..  " as a gui keybind")
 end)
-
