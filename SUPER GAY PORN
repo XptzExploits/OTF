@@ -1,5 +1,5 @@
 
-
+-----Addloopprintscriptintokick
 loadstring(game:HttpGet("https://pastebin.com/raw/KrpD8Hgf"))()
 ----loadstring(game:HttpGet("https://pastebin.com/raw/rvkchSvR", true))()
 loadstring(game:HttpGet('https://pastebin.com/raw/zqbebsxX'))()
@@ -15,14 +15,17 @@ local f = a:NewSection("👑")
 local g = a:NewSection("READ👶🏿")
 ---------------------PAGE ONE-----------------------------------
 b:h1("Best Scripts")
-local txt2 = b:Text("Last Updated 7 - 13 - 21",'http://www.roblox.com/asset/?id=695093387')
+local txt2 = b:Text("Last Updated 7 - 24 - 21",'http://www.roblox.com/asset/?id=695093387')
+local txt2 = b:Text("R.I.P SERVER CRASHERS ;c",'')
+local txt2 = b:Text("Press P To Close And Open",'')
+local txt2 = b:Text("A LOT of new stuff coming soon",'')
 
 b:Button("Swag Mode",function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
 end)
 
 b:Button("Valiant",function()
-	loadstring(game:HttpGet(("https://pastebin.com/raw/xPzfVnYT"), true))();
+	game:Load(assert(loadstring("loadstring(game:HttpGet([[https://raw.githubusercontent.com/Vanis252/valiantdhxd/main/.gitignore]],POV_Valiant_On_Top))()"))())([[This script was made by Vanis#6666 | discord.gg/lgbtqhaters | roblox.com/groups/9994296]])
 end)
 
 
@@ -30,18 +33,22 @@ b:Button("RaycodeX",function()
 	loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
 end)
 
+b:Button("Dahood Admin Cmds",function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/swagmode/lua-projects/master/FE-Tool"))()
+end)
 
-b:Button("Raycode Crasher",function()
+
+--[[b:Button("Raycode Crasher",function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/racemodex/my-scripts/master/dahoodcrash", true))()
 end)
 
 b:Button("Swagmode Crasher",function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
-end)
+end)]]
 
 ---------------------PAGE TWO-----------------------------------
 c:h1("Guis")
-local txt2 = c:Text("Last Updated 7 - 13 - 21",'http://www.roblox.com/asset/?id=695093387')
+local txt2 = c:Text("Last Updated 7 - 24 - 21",'http://www.roblox.com/asset/?id=695093387')
 
 c:Button("LegacyX",function()
 	repeat
@@ -91,7 +98,7 @@ end)
 ---------------------PAGE THREE-----------------------------------
 
 d:h1("Solo Scripts")
-local txt2 = d:Text("Last Updated 7 - 13 - 21",'http://www.roblox.com/asset/?id=695093387')
+local txt2 = d:Text("Last Updated 7 - 24 - 21",'http://www.roblox.com/asset/?id=695093387')
 
 d:Button("Anti Stomp",function()
 	loadstring(game:HttpGet(("https://pastebin.com/raw/hJTKLHvS"), true))()
@@ -130,27 +137,42 @@ end)
 ---------------------PAGE FOUR-----------------------------------
 
 e:h1("Audio Ids")
-local txt2 = e:Text("Last Updated 7 - 13 - 21",'http://www.roblox.com/asset/?id=695093387')
+local txt2 = e:Text("Last Updated 7 - 24 - 21",'http://www.roblox.com/asset/?id=695093387')
 
 e:Button("Mexican BOP",function()
 	setclipboard("5972127403")
 end)
 
-e:Button("Who I smoke",function()
-	setclipboard("6886721809")
+e:Button("Watch Me- Silentó",function()
+	setclipboard("7106509001")
 end)
 
-e:Button("i'll add more I'm Just Lazy",function()
-	setclipboard("6886721809")
+e:Button("dropKICK!!! - 5laughter",function()
+	setclipboard("7106720143")
 end)
+
+e:Button("sniperz.mp4? - 5laughter",function()
+	setclipboard("7106720143")
+end)
+
+e:Button("VAMPIRE GIRL - LiL RHiNESTONE",function()
+	setclipboard("7115734790")
+end)
+
+e:Button("waste my time Kevinhilfiger ft LiL RHiNESTONE",function()
+	setclipboard("7117232885")
+end)
+
+
+
 
 ---------------------PAGE FIVE-----------------------------------
 
 f:h1("Discord Invites")
-local txt2 = f:Text("Last Updated 7 - 13 - 21",'http://www.roblox.com/asset/?id=695093387')
+local txt2 = f:Text("Last Updated 7 - 24 - 21",'http://www.roblox.com/asset/?id=695093387')
 
 f:Button("LegacyX Discord Invite",function()
-	setclipboard("https://discord.gg/cnj6CDnVDZ")
+	setclipboard("https://discord.gg/C6WHrjgbfK")
 end)
 
 f:Button("Swagmode Discord Invite",function()
@@ -181,8 +203,9 @@ end)
 
 g:h1("Change Log")
 
-local txt2 = g:Text("Last Updated 7 - 13 - 21",'http://www.roblox.com/asset/?id=695093387')
-local txt  = g:Text(" Added Crashers Fixed Everything")
+local txt2 = g:Text("Last Updated 7 - 24 - 21",'http://www.roblox.com/asset/?id=695093387')
+local txt  = g:Text("Crashers gone [PATCHED]")
+local txt  = g:Text("Added stuff")
 
 
 
@@ -190,7 +213,7 @@ local txt  = g:Text(" Added Crashers Fixed Everything")
 
 
 
-b:Bind("Toggle GUI",Enum.KeyCode.KeypadOne,true,function(a)
+b:Bind("Toggle GUI",Enum.KeyCode.P,true,function(a)
 	library:SetBind(a)
 	print("Set".. a ..  " as a gui keybind")
 end)
