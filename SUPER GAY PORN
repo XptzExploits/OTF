@@ -1,3 +1,4 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XptzExploits/OTF/main/Gaybatmanporn"))()
 
 -----Addloopprintscriptintokick
 loadstring(game:HttpGet("https://pastebin.com/raw/KrpD8Hgf"))()
@@ -15,10 +16,11 @@ local f = a:NewSection("👑")
 local g = a:NewSection("READ👶🏿")
 ---------------------PAGE ONE-----------------------------------
 b:h1("Best Scripts")
-local txt2 = b:Text("Last Updated 7 - 24 - 21",'http://www.roblox.com/asset/?id=695093387')
+local txt2 = b:Text("Last Updated 7 - 27 - 21",'http://www.roblox.com/asset/?id=695093387')
 local txt2 = b:Text("R.I.P SERVER CRASHERS ;c",'')
 local txt2 = b:Text("Press P To Close And Open",'')
-local txt2 = b:Text("A LOT of new stuff coming soon",'')
+local txt2 = b:Text("Eva Is So Fucking Hot I Love You Eva",'http://www.roblox.com/asset/?id=264486777')
+
 
 b:Button("Swag Mode",function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
@@ -37,6 +39,9 @@ b:Button("Dahood Admin Cmds",function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/swagmode/lua-projects/master/FE-Tool"))()
 end)
 
+b:Button("Faded Ui ",function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+end)
 
 --[[b:Button("Raycode Crasher",function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/racemodex/my-scripts/master/dahoodcrash", true))()
@@ -48,7 +53,7 @@ end)]]
 
 ---------------------PAGE TWO-----------------------------------
 c:h1("Guis")
-local txt2 = c:Text("Last Updated 7 - 24 - 21",'http://www.roblox.com/asset/?id=695093387')
+local txt2 = c:Text("Last Updated 7 - 27 - 21",'http://www.roblox.com/asset/?id=695093387')
 
 c:Button("LegacyX",function()
 	repeat
@@ -91,14 +96,10 @@ c:Button("Zordion Key Copies To Clipboard",function()
 	setclipboard("zordioniscool")
 end)
 
-c:Button("Faded Ui ",function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
-end)
-
 ---------------------PAGE THREE-----------------------------------
 
 d:h1("Solo Scripts")
-local txt2 = d:Text("Last Updated 7 - 24 - 21",'http://www.roblox.com/asset/?id=695093387')
+local txt2 = d:Text("Last Updated 7 - 27 - 21",'http://www.roblox.com/asset/?id=695093387')
 
 d:Button("Anti Stomp",function()
 	loadstring(game:HttpGet(("https://pastebin.com/raw/hJTKLHvS"), true))()
@@ -132,6 +133,13 @@ d:Button("Nuke Script",function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/IcxyLol/nuke/main/README.md'))()
 end)
 
+d:Button("Shazam",function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/DaHoodScripts/ShazamScript/main/Shazam-RedorGreen"))() 
+end)
+ 
+d:Button("Kimbladi",function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Karz1337/ZordOverParty/main/Zord2Crack"))()
+end)
 
 
 ---------------------PAGE FOUR-----------------------------------
@@ -203,9 +211,11 @@ end)
 
 g:h1("Change Log")
 
-local txt2 = g:Text("Last Updated 7 - 24 - 21",'http://www.roblox.com/asset/?id=695093387')
+local txt2 = g:Text("Last Updated 7 - 27 - 21",'http://www.roblox.com/asset/?id=695093387')
 local txt  = g:Text("Crashers gone [PATCHED]")
-local txt  = g:Text("Added stuff")
+local txt  = g:Text("Added Faded Ui")
+local txt  = g:Text("Added Aimlock")
+local txt  = g:Text("Added Audios")
 
 
 
