@@ -16,8 +16,9 @@ local f = a:NewSection("👑")
 local g = a:NewSection("READ👶🏿")
 ---------------------PAGE ONE-----------------------------------
 b:h1("Best Scripts")
-local txt2 = b:Text("Last Updated 7 - 27 - 21",'http://www.roblox.com/asset/?id=695093387')
-local txt2 = b:Text("R.I.P SERVER CRASHERS ;c",'')
+local txt2 = b:Text("Last Updated 8 - 1 - 21",'http://www.roblox.com/asset/?id=695093387')
+local txt2 = b:Text("I have a working Dh Crasher ",'http://www.roblox.com/asset/?id=264486777')
+local txt2 = b:Text("I'll add it soon HEHE",'')
 local txt2 = b:Text("Press P To Close And Open",'')
 local txt2 = b:Text("Eva Is So Fucking Hot I Love You Eva",'http://www.roblox.com/asset/?id=264486777')
 
@@ -26,22 +27,19 @@ b:Button("Swag Mode",function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
 end)
 
-b:Button("Valiant",function()
-	game:Load(assert(loadstring("loadstring(game:HttpGet([[https://raw.githubusercontent.com/Vanis252/valiantdhxd/main/.gitignore]],POV_Valiant_On_Top))()"))())([[This script was made by Vanis#6666 | discord.gg/lgbtqhaters | roblox.com/groups/9994296]])
-end)
-
 
 b:Button("RaycodeX",function()
 	loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
 end)
 
-b:Button("Dahood Admin Cmds",function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/swagmode/lua-projects/master/FE-Tool"))()
-end)
 
 b:Button("Faded Ui ",function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
 end)
+
+b:Button("ANTI CHEAT BYPASS ",function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/0nly6Ex/crypt/main/resources/anticheat.lua')())
+	end)
 
 --[[b:Button("Raycode Crasher",function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/racemodex/my-scripts/master/dahoodcrash", true))()
@@ -53,26 +51,20 @@ end)]]
 
 ---------------------PAGE TWO-----------------------------------
 c:h1("Guis")
-local txt2 = c:Text("Last Updated 7 - 27 - 21",'http://www.roblox.com/asset/?id=695093387')
+local txt2 = c:Text("Last Updated 8 - 1 - 21",'http://www.roblox.com/asset/?id=695093387')
 
-c:Button("LegacyX",function()
-	repeat
-		wait();
-	until game:IsLoaded();
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/Compwnter/LegacyX/main/script.lua'))();
+c:Button("LEGACY X CRACKED",function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/0nly6Ex/crackedlegacyx/main/script.lua'))()
 end)
 
-c:Button("LegacyX Join Group To Use Copies To Clipboard",function()
-	setclipboard("https://www.roblox.com/groups/7658734/Legacy-X#!/about")
+b:Button("Dahood Admin Cmds",function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/swagmode/lua-projects/master/FE-Tool"))()
 end)
 
-c:Button("Nova Gui",function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/IcxyLol/Nova-Gui-New/main/README.md", true))()
+b:Button("Valiant",function()
+	game:Load(assert(loadstring("loadstring(game:HttpGet([[https://raw.githubusercontent.com/Vanis252/valiantdhxd/main/.gitignore]],POV_Valiant_On_Top))()"))())([[This script was made by Vanis#6666 | discord.gg/lgbtqhaters | roblox.com/groups/9994296]])
 end)
 
-c:Button("LegacyX Join Group To Use Copies To Clipboard",function()
-	setclipboard("NovaGui")
-end)
 
 c:Button("Krypt",function()
 	repeat
@@ -85,21 +77,11 @@ c:Button("Join Krypt Group To Use Copies To Clipboard",function()
 	setclipboard("https://www.roblox.com/groups/9949037/Krypt-HQ#!/about")
 end)
 
-c:Button("Zordion",function()
-	repeat
-		wait()
-	until game:IsLoaded()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/zordion/main/script.lua"))()
-end)
-
-c:Button("Zordion Key Copies To Clipboard",function()
-	setclipboard("zordioniscool")
-end)
 
 ---------------------PAGE THREE-----------------------------------
 
 d:h1("Solo Scripts")
-local txt2 = d:Text("Last Updated 7 - 27 - 21",'http://www.roblox.com/asset/?id=695093387')
+local txt2 = d:Text("Last Updated 8 - 1 - 21",'http://www.roblox.com/asset/?id=695093387')
 
 d:Button("Anti Stomp",function()
 	loadstring(game:HttpGet(("https://pastebin.com/raw/hJTKLHvS"), true))()
@@ -107,10 +89,6 @@ end)
 
 d:Button("Silent Aim",function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/wfwf/main/aimbot"))()
-end)
-
-d:Button("CMD-X",function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/dBDCw7hw"))()
 end)
 
 d:Button("Audio Logger",function()
@@ -136,16 +114,45 @@ end)
 d:Button("Shazam",function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/DaHoodScripts/ShazamScript/main/Shazam-RedorGreen"))() 
 end)
- 
+
+d:Button("SUPER AUTOFARM",function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/crypt/main/resources/autofarm.lua"))() 
+end)
+
+d:Button("SHOE AUTOFARM",function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/crypt/main/resources/shoefarm.lua"))() 
+end)
+
+d:Button("HOSPITAL AUTOFARM",function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/crypt/main/resources/hospitalfarm.lua"))() 
+end)
+
+d:Button("INFINITE STAMINA",function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/crypt/main/resources/infinitestamina.lua"))() 
+end)
+
+d:Button("GOD MODE",function()
+	loadstring(game:HttpGet("loadstring(game:HttpGet('https://raw.githubusercontent.com/0nly6Ex/crypt/main/resources/godmode.lua')()"))() 
+end)
+
+d:Button("CHATLOGS",function()
+	loadstring(game:HttpGet("loadstring(game:HttpGet('https://raw.githubusercontent.com/0nly6Ex/crypt/main/resources/chatlogs.lua')()"))() 
+end)
+
 d:Button("Kimbladi",function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Karz1337/ZordOverParty/main/Zord2Crack"))()
 end)
+
+d:Button("Kimbladi 2",function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/0nly6Ex/wfwf/main/aimbot'))()
+end)
+
 
 
 ---------------------PAGE FOUR-----------------------------------
 
 e:h1("Audio Ids")
-local txt2 = e:Text("Last Updated 7 - 24 - 21",'http://www.roblox.com/asset/?id=695093387')
+local txt2 = e:Text("Last Updated 8 - 1 - 21",'http://www.roblox.com/asset/?id=695093387')
 
 e:Button("Mexican BOP",function()
 	setclipboard("5972127403")
@@ -177,7 +184,7 @@ end)
 ---------------------PAGE FIVE-----------------------------------
 
 f:h1("Discord Invites")
-local txt2 = f:Text("Last Updated 7 - 24 - 21",'http://www.roblox.com/asset/?id=695093387')
+local txt2 = f:Text("Last Updated 8 - 1 - 21",'http://www.roblox.com/asset/?id=695093387')
 
 f:Button("LegacyX Discord Invite",function()
 	setclipboard("https://discord.gg/C6WHrjgbfK")
@@ -211,11 +218,11 @@ end)
 
 g:h1("Change Log")
 
-local txt2 = g:Text("Last Updated 7 - 27 - 21",'http://www.roblox.com/asset/?id=695093387')
-local txt  = g:Text("Crashers gone [PATCHED]")
-local txt  = g:Text("Added Faded Ui")
-local txt  = g:Text("Added Aimlock")
-local txt  = g:Text("Added Audios")
+local txt2 = g:Text("Last Updated 8 - 1 - 21",'http://www.roblox.com/asset/?id=695093387')
+local txt  = g:Text("")
+local txt  = g:Text("")
+local txt  = g:Text("")
+local txt  = g:Text("")
 
 
 
