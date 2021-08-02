@@ -1,4 +1,5 @@
 
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
 
 -----Addloopprintscriptintokick
 loadstring(game:HttpGet("https://pastebin.com/raw/KrpD8Hgf"))()
