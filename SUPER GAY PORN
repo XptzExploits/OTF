@@ -19,7 +19,6 @@ b:h1("Best Scripts")
 local txt2 = b:Text("Last Updated 8 - 2 - 21",'http://www.roblox.com/asset/?id=695093387')
 local txt2 = b:Text("Crashes are back",'http://www.roblox.com/asset/?id=1432882432')
 local txt2 = b:Text("Press P To Close And Open",'')
-local txt2 = b:Text("I Love Eva More",'')
 local txt2 = b:Text("Eva Is So Fucking Hot I Love You Eva",'http://www.roblox.com/asset/?id=264486777')
 
 
@@ -51,7 +50,7 @@ end)
 
 ---------------------PAGE TWO-----------------------------------
 c:h1("Guis")
-local txt2 = c:Text("Last Updated 8 - 1 - 21",'http://www.roblox.com/asset/?id=695093387')
+local txt2 = c:Text("Last Updated 8 - 2 - 21",'http://www.roblox.com/asset/?id=695093387')
 
 c:Button("LEGACY X CRACKED",function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/0nly6Ex/crackedlegacyx/main/script.lua'))()
