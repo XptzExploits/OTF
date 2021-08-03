@@ -24,14 +24,12 @@ local txt2 = b:Text("Eva Is So Fucking Hot I Love You Eva",'http://www.roblox.co
 
 
 b:Button("Swag Mode",function()
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
-	-----loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
 end)
 
 
 b:Button("RaycodeX",function()
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
-	------loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
+loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
 end)
 
 
