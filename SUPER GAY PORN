@@ -1,6 +1,7 @@
 
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
 
+--[[
 -----Addloopprintscriptintokick
 loadstring(game:HttpGet("https://pastebin.com/raw/KrpD8Hgf"))()
 ----loadstring(game:HttpGet("https://pastebin.com/raw/rvkchSvR", true))()
@@ -234,3 +235,4 @@ b:Bind("Toggle GUI",Enum.KeyCode.P,true,function(a)
 	library:SetBind(a)
 	print("Set".. a ..  " as a gui keybind")
 end)
+]]
