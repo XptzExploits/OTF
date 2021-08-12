@@ -1,236 +1,40 @@
+-- init
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GreenDeno/Venyx-UI-Library/main/source.lua"))()
+local venyx = library.new("IMPORTANT", 5013109572)
 
 
-
------Addloopprintscriptintokick
-loadstring(game:HttpGet("https://pastebin.com/raw/KrpD8Hgf"))()
-----loadstring(game:HttpGet("https://pastebin.com/raw/rvkchSvR", true))()
-loadstring(game:HttpGet('https://pastebin.com/raw/zqbebsxX'))()
-loadstring(game:HttpGet('https://pastebin.com/raw/nUeRQ5Ks'))()
-
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/XptzExploits/OTF/main/UI%20FOR%20GAY%20NIGGAS%20PT"))() -- cal the lib
-local a = library:NewWindow("Porn","HUB") -- Change to anything
-local b = a:NewSection("⭐")
-local c = a:NewSection("😎")
-local d = a:NewSection("👻")
-local e = a:NewSection("🎶")
-local f = a:NewSection("👑")
-local g = a:NewSection("READ👶🏿")
----------------------PAGE ONE-----------------------------------
-b:h1("Best Scripts")
-local txt2 = b:Text("Last Updated 8 - 2 - 21",'http://www.roblox.com/asset/?id=695093387')
-local txt2 = b:Text("Crashes are back",'http://www.roblox.com/asset/?id=1432882432')
-local txt2 = b:Text("Press P To Close And Open",'')
-local txt2 = b:Text("Eva Is So Fucking Hot I Love You Eva",'http://www.roblox.com/asset/?id=264486777')
+-- first page
+local page = venyx:addPage("IMPORTANT", 5012544693)
+local section1 = page:addSection("IMPORTANT")
+local section2 = page:addSection("IMPORTANT")
 
 
-b:Button("Swag Mode",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
+section1:addButton("Xptz here read", function()
+	print("Clicked")
+end)
+section1:addButton("I updated this before syn update", function()
+	print("Clicked")
 end)
 
-
-b:Button("RaycodeX",function()
-loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
+section1:addButton("there is 3 outcomes of what may happen", function()
+	print("Clicked")
 end)
 
-
-b:Button("Faded Ui ",function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+section1:addButton("you get insta banned cuz of the syn changes", function()
+	print("Clicked")
 end)
 
-b:Button("ANTI CHEAT BYPASS ",function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/0nly6Ex/crypt/main/resources/anticheat.lua')())
-	end)
-
---[[b:Button("Raycode Crasher",function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/racemodex/my-scripts/master/dahoodcrash", true))()
-end)]]
-
-b:Button("Swagmode Crasher",function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
+section1:addButton("the script works", function()
+	print("Clicked")
 end)
 
----------------------PAGE TWO-----------------------------------
-c:h1("Guis")
-local txt2 = c:Text("Last Updated 8 - 2 - 21",'http://www.roblox.com/asset/?id=695093387')
-
-c:Button("LEGACY X CRACKED",function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/0nly6Ex/crackedlegacyx/main/script.lua'))()
+section1:addButton("nothing executes", function()
+	print("Clicked")
+end)
+-----------------------------
+section2:addButton("Execute anyways", function()
+game.Players.LocalPlayer:Kick("Saved By Xptz Smart Anti Ban")
 end)
 
-c:Button("Dahood Admin Cmds",function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/swagmode/lua-projects/master/FE-Tool"))()
-end)
-
-b:Button("Valiant",function()
-	game:Load(assert(loadstring("loadstring(game:HttpGet([[https://raw.githubusercontent.com/Vanis252/valiantdhxd/main/.gitignore]],POV_Valiant_On_Top))()"))())([[This script was made by Vanis#6666 | discord.gg/lgbtqhaters | roblox.com/groups/9994296]])
-end)
-
-
-c:Button("Krypt",function()
-	repeat
-		wait()
-	until game:IsLoaded()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/krypt/main/loader"))()
-end)
-
-c:Button("Join Krypt Group To Use Copies To Clipboard",function()
-	setclipboard("https://www.roblox.com/groups/9949037/Krypt-HQ#!/about")
-end)
-
-
----------------------PAGE THREE-----------------------------------
-
-d:h1("Solo Scripts")
-local txt2 = d:Text("Last Updated 8 - 2 - 21",'http://www.roblox.com/asset/?id=695093387')
-
-d:Button("Anti Stomp",function()
-	loadstring(game:HttpGet(("https://pastebin.com/raw/hJTKLHvS"), true))()
-end)
-
-d:Button("Silent Aim",function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/wfwf/main/aimbot"))()
-end)
-
-d:Button("Audio Logger",function()
-	loadstring(game:HttpGet(("https://pastebin.com/raw/iXtePLpF"), true))()
-end)
-
-d:Button("Ray Code Cash Dropper",function()
-	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/Da%20Hood%20Auto%20Cash%20Drop"), true))()
-end)
-
-d:Button("Ray Code Auto Arrest",function()
-	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/Da%20Hood%20Auto%20Arrest"), true))()
-end)
-
-d:Button("Da-Hoodian Ware (Shitty Silent Aim)",function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/racemodex/my-scripts/master/dahoodaimlock", true))()
-end)
-
-d:Button("Nuke Script",function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/IcxyLol/nuke/main/README.md'))()
-end)
-
-d:Button("Shazam",function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/DaHoodScripts/ShazamScript/main/Shazam-RedorGreen"))() 
-end)
-
-d:Button("SUPER AUTOFARM",function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/crypt/main/resources/autofarm.lua"))() 
-end)
-
-d:Button("SHOE AUTOFARM",function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/crypt/main/resources/shoefarm.lua"))() 
-end)
-
-d:Button("HOSPITAL AUTOFARM",function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/crypt/main/resources/hospitalfarm.lua"))() 
-end)
-
-d:Button("INFINITE STAMINA",function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/crypt/main/resources/infinitestamina.lua"))() 
-end)
-
-d:Button("GOD MODE",function()
-	loadstring(game:HttpGet("loadstring(game:HttpGet('https://raw.githubusercontent.com/0nly6Ex/crypt/main/resources/godmode.lua')()"))() 
-end)
-
-d:Button("CHATLOGS",function()
-	loadstring(game:HttpGet("loadstring(game:HttpGet('https://raw.githubusercontent.com/0nly6Ex/crypt/main/resources/chatlogs.lua')()"))() 
-end)
-
-d:Button("Kimbladi",function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Karz1337/ZordOverParty/main/Zord2Crack"))()
-end)
-
-d:Button("Kimbladi 2",function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/0nly6Ex/wfwf/main/aimbot'))()
-end)
-
-
-
----------------------PAGE FOUR-----------------------------------
-
-e:h1("Audio Ids")
-local txt2 = e:Text("Last Updated 8 - 2 - 21",'http://www.roblox.com/asset/?id=695093387')
-
-e:Button("Mexican BOP",function()
-	setclipboard("5972127403")
-end)
-
-e:Button("Watch Me- Silentó",function()
-	setclipboard("7106509001")
-end)
-
-e:Button("dropKICK!!! - 5laughter",function()
-	setclipboard("7106720143")
-end)
-
-e:Button("sniperz.mp4? - 5laughter",function()
-	setclipboard("7106720143")
-end)
-
-e:Button("VAMPIRE GIRL - LiL RHiNESTONE",function()
-	setclipboard("7115734790")
-end)
-
-e:Button("waste my time Kevinhilfiger ft LiL RHiNESTONE",function()
-	setclipboard("7117232885")
-end)
-
-
-
-
----------------------PAGE FIVE-----------------------------------
-
-f:h1("Discord Invites")
-local txt2 = f:Text("Last Updated 8 - 2 - 21",'http://www.roblox.com/asset/?id=695093387')
-
-f:Button("LegacyX Discord Invite",function()
-	setclipboard("https://discord.gg/C6WHrjgbfK")
-end)
-
-f:Button("Swagmode Discord Invite",function()
-	setclipboard("https://discord.gg/Kh2SawwKYp")
-end)
-
-f:Button("Valiant Discord Invite",function()
-	setclipboard("https://discord.gg/6GNxwJHE7t")
-end)
-
-f:Button("Nova Discord Invite",function()
-	setclipboard("https://discord.gg/6GNxwJHE7t")
-end)
-
-f:Button("Raycode Discord Invite",function()
-	setclipboard("https://discord.gg/racecodex")
-end)
-
-f:Button("Krypt Discord Invite",function()
-	setclipboard("https://discord.gg/FrCeZefMRG")
-end)
-
-f:Button("Cypher X Discord Invite",function()
-	setclipboard("https://discord.gg/rhNgKDRZNd")
-end)
-
----------------------PAGE SIX-----------------------------------
-
-g:h1("Change Log")
-
-local txt2 = g:Text("Last Updated 8 - 2 - 21",'http://www.roblox.com/asset/?id=695093387')
-local txt  = g:Text("")
-local txt  = g:Text("")
-local txt  = g:Text("")
-local txt  = g:Text("")
-
-
-
-
-
-
-
-b:Bind("Toggle GUI",Enum.KeyCode.P,true,function(a)
-	library:SetBind(a)
-	print("Set".. a ..  " as a gui keybind")
-end)
+-- load
+venyx:SelectPage(venyx.pages[1], true)
