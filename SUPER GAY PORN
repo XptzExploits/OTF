@@ -1,40 +1,34 @@
--- init
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GreenDeno/Venyx-UI-Library/main/source.lua"))()
-local venyx = library.new("IMPORTANT", 5013109572)
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
-
--- first page
-local page = venyx:addPage("IMPORTANT", 5012544693)
-local section1 = page:addSection("IMPORTANT")
-local section2 = page:addSection("IMPORTANT")
-
-
-section1:addButton("Xptz here read", function()
-	print("Clicked")
-end)
-section1:addButton("I updated this before syn update", function()
-	print("Clicked")
+local Window = Library.CreateLib("Jiggy Mod Menu", "BloodTheme")
+local Tab = Window:NewTab("Updates")
+local Section = Tab:NewSection("Change Log")
+Section:NewLabel("LabelText")
+-------------------------------------------------PAGEONE-----------------------------------------------------------
+local Tab = Window:NewTab("Popular")
+local Section = Tab:NewSection("Change Log")
+Section:NewButton("SwagMode", "Best DH Gui", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
 end)
 
-section1:addButton("there is 3 outcomes of what may happen", function()
-	print("Clicked")
+Section:NewButton("Raycode X", "Kimbladi Aimlock", function()
+loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
 end)
 
-section1:addButton("you get insta banned cuz of the syn changes", function()
-	print("Clicked")
+Section:NewButton("Faded Ui", "2nd Best DH Gui", function()
+loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
 end)
 
-section1:addButton("the script works", function()
-	print("Clicked")
-end)
 
-section1:addButton("nothing executes", function()
-	print("Clicked")
+-------------------------------------------------PAGETWO-----------------------------------------------------------
+local Tab = Window:NewTab("Tab 2")
+local Section = Tab:NewSection("Coming Soon Fixing Shit")
+Section:NewButton("SwagMode", "Best DH Gui", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
 end)
------------------------------
-section2:addButton("Execute anyways", function()
-game.Players.LocalPlayer:Kick("Saved By Xptz Smart Anti Ban")
+-------------------------------------------------Toggle-----------------------------------------------------------
+local Tab = Window:NewTab("Keybind")
+local Section = Tab:NewSection("Toggle Key")
+Section:NewKeybind("KeybindText", "Toggle The Ui", Enum.KeyCode.P, function()
+	Library:ToggleUI()
 end)
-
--- load
-venyx:SelectPage(venyx.pages[1], true)
